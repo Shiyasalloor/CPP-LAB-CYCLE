@@ -85,7 +85,7 @@ int main()
             default:
                     cout<<"invalid input"<<endl;
         }
-    }while(choice1==3);
+    }while(choice1!=3);
     return 0;
 }
 
