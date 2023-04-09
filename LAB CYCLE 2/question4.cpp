@@ -116,7 +116,7 @@ int main()
     
     if(c1==r2)
     {
-        matrices obj4(r2,c2);
+        matrices obj4(r1,c2);
         obj4=obj1*obj2;
         cout<<"the product of the matrices :"<<endl;
         obj4.display();
