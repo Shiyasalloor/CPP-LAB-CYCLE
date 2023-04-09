@@ -149,7 +149,7 @@ int main()
     
     if(c1==r2)
     {
-        matrices obj4(r2,c2);
+        matrices obj4(r1,c2);
         obj4.mult(obj1,obj2);
         cout<<"the product of two matrices : "<<endl;
         obj4.display();
