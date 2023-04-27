@@ -44,7 +44,7 @@ void Strings::concatenate(const Strings &string1,const Strings &string2)
 void Strings::compare(const Strings &string1,const Strings &string2)
 {
 	if(string1.length==string2.length)
-		cout<<"They are same strings";
+		cout<<"They are same strings"<<endl;
 	else if(string1.length>string2.length)
 		cout<<string1.name<<" greater than "<<string2.name<<endl;
 	else
